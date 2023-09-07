@@ -1,0 +1,2 @@
+update post set body = ""
+WHERE author_id = (select id from user where username like "SAS%");
