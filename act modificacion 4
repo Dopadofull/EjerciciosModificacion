@@ -1,0 +1,4 @@
+ACTIVIDAD 4
+
+delete from post 
+where author_id = 2;
