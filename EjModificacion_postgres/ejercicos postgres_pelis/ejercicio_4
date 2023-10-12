@@ -1,0 +1,12 @@
+--ejercicio 4
+
+DROP VIEW direccion_completa;
+CREATE VIEW direccion_completa AS
+SELECT a.address, c.city, co.country
+FROM address a JOIN city c
+ON a.city_id = c.city_id
+JOIN country co
+ON c.country_id = co.country_id;
+
+CREATE VIEW 
+SELECT inventory_id,
