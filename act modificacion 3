@@ -1,7 +1,0 @@
---ACTIVIDAD 3
-
-UPDATE user set password = "I can love you"
-where username like "pata";
-
-UPDATE post set body = "call me"
-where author_id = 2;
